@@ -1,0 +1,50 @@
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fce4ec;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.logo {
+  width: 100px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+nav a, .search-bar {
+  color: #000;
+  text-decoration: none;
+}
+.hero {
+  background: linear-gradient(#fff0f6, #f8bbd0);
+  text-align: center;
+  padding: 50px 20px;
+}
+.shop .products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+.product-card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  flex: 1 1 calc(25% - 40px);
+  text-align: center;
+}
+footer {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
